@@ -8,3 +8,6 @@ This is a simple counter application made using create-vite-app and javascript. 
 
 ### 🚫 Mistakes I made 
 - It's crucial to ensure that when employing an onClick() handler within a button element, the reference of the function intended to be called is passed, rather than the function itself. Otherwise, it may lead to infinite re-renders, as the functions would be immediately invoked upon each render, instead of triggering only upon the button's actual click event.
+
+### 👀 The app
+![The Application](./assets/Screenshot%202024-03-22%20at%203.40.10 AM.png)
